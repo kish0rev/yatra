@@ -35,6 +35,7 @@ public class BrowserNavigation {
 		WebElement DepartureButton = wd.findElement(DepartureLocator);
 		DepartureButton.click();
 		System.out.println("Clicked on Departure Button");	
+		System.out.println("for pull");
 	}
 
 
