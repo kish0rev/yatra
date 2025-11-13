@@ -36,6 +36,7 @@ public class BrowserNavigation {
 		DepartureButton.click();
 		System.out.println("Clicked on Departure Button");	
 		System.out.println("for pull");
+		System.out.println("for pull");
 	}
 
 
