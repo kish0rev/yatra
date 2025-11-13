@@ -34,6 +34,7 @@ public class BrowserNavigation {
 		By DepartureLocator =  By.xpath("//div[@role=\"button\" and @aria-label=\"Departure Date inputbox\"]");
 		WebElement DepartureButton = wd.findElement(DepartureLocator);
 		DepartureButton.click();
+		System.out.println("Clicked on Departure Button");	
 	}
 
 
